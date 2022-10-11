@@ -87,13 +87,3 @@ def find_empty(bo):
                 return (i, j) # return tuple: row, column
 
     return None
-
-print(" ")
-print("Unsolved Board")
-print(" ")
-print_board(board)
-solve(board)
-print(" ")
-print("Solved Board")
-print(" ")
-print_board(board)
